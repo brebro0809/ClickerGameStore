@@ -1,0 +1,624 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		182CF3692ACC57530067A05B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 182CF3682ACC57530067A05B /* AppDelegate.swift */; };
+		182CF36B2ACC57530067A05B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 182CF36A2ACC57530067A05B /* SceneDelegate.swift */; };
+		182CF36D2ACC57530067A05B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 182CF36C2ACC57530067A05B /* ViewController.swift */; };
+		182CF3702ACC57530067A05B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 182CF36E2ACC57530067A05B /* Main.storyboard */; };
+		182CF3732ACC57530067A05B /* ClickerGameStoreWydra.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 182CF3712ACC57530067A05B /* ClickerGameStoreWydra.xcdatamodeld */; };
+		182CF3752ACC57540067A05B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 182CF3742ACC57540067A05B /* Assets.xcassets */; };
+		182CF3782ACC57540067A05B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 182CF3762ACC57540067A05B /* LaunchScreen.storyboard */; };
+		182CF3832ACC57540067A05B /* ClickerGameStoreWydraTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 182CF3822ACC57540067A05B /* ClickerGameStoreWydraTests.swift */; };
+		182CF38D2ACC57550067A05B /* ClickerGameStoreWydraUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 182CF38C2ACC57550067A05B /* ClickerGameStoreWydraUITests.swift */; };
+		182CF38F2ACC57550067A05B /* ClickerGameStoreWydraUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 182CF38E2ACC57550067A05B /* ClickerGameStoreWydraUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		182CF37F2ACC57540067A05B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 182CF35D2ACC57530067A05B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 182CF3642ACC57530067A05B;
+			remoteInfo = ClickerGameStoreWydra;
+		};
+		182CF3892ACC57550067A05B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 182CF35D2ACC57530067A05B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 182CF3642ACC57530067A05B;
+			remoteInfo = ClickerGameStoreWydra;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		182CF3652ACC57530067A05B /* ClickerGameStoreWydra.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ClickerGameStoreWydra.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		182CF3682ACC57530067A05B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		182CF36A2ACC57530067A05B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		182CF36C2ACC57530067A05B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		182CF36F2ACC57530067A05B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		182CF3722ACC57530067A05B /* ClickerGameStoreWydra.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ClickerGameStoreWydra.xcdatamodel; sourceTree = "<group>"; };
+		182CF3742ACC57540067A05B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		182CF3772ACC57540067A05B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		182CF3792ACC57540067A05B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		182CF37E2ACC57540067A05B /* ClickerGameStoreWydraTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ClickerGameStoreWydraTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		182CF3822ACC57540067A05B /* ClickerGameStoreWydraTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClickerGameStoreWydraTests.swift; sourceTree = "<group>"; };
+		182CF3882ACC57550067A05B /* ClickerGameStoreWydraUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ClickerGameStoreWydraUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		182CF38C2ACC57550067A05B /* ClickerGameStoreWydraUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClickerGameStoreWydraUITests.swift; sourceTree = "<group>"; };
+		182CF38E2ACC57550067A05B /* ClickerGameStoreWydraUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClickerGameStoreWydraUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		182CF3622ACC57530067A05B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		182CF37B2ACC57540067A05B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		182CF3852ACC57550067A05B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		182CF35C2ACC57530067A05B = {
+			isa = PBXGroup;
+			children = (
+				182CF3672ACC57530067A05B /* ClickerGameStoreWydra */,
+				182CF3812ACC57540067A05B /* ClickerGameStoreWydraTests */,
+				182CF38B2ACC57550067A05B /* ClickerGameStoreWydraUITests */,
+				182CF3662ACC57530067A05B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		182CF3662ACC57530067A05B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				182CF3652ACC57530067A05B /* ClickerGameStoreWydra.app */,
+				182CF37E2ACC57540067A05B /* ClickerGameStoreWydraTests.xctest */,
+				182CF3882ACC57550067A05B /* ClickerGameStoreWydraUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		182CF3672ACC57530067A05B /* ClickerGameStoreWydra */ = {
+			isa = PBXGroup;
+			children = (
+				182CF3682ACC57530067A05B /* AppDelegate.swift */,
+				182CF36A2ACC57530067A05B /* SceneDelegate.swift */,
+				182CF36C2ACC57530067A05B /* ViewController.swift */,
+				182CF36E2ACC57530067A05B /* Main.storyboard */,
+				182CF3742ACC57540067A05B /* Assets.xcassets */,
+				182CF3762ACC57540067A05B /* LaunchScreen.storyboard */,
+				182CF3792ACC57540067A05B /* Info.plist */,
+				182CF3712ACC57530067A05B /* ClickerGameStoreWydra.xcdatamodeld */,
+			);
+			path = ClickerGameStoreWydra;
+			sourceTree = "<group>";
+		};
+		182CF3812ACC57540067A05B /* ClickerGameStoreWydraTests */ = {
+			isa = PBXGroup;
+			children = (
+				182CF3822ACC57540067A05B /* ClickerGameStoreWydraTests.swift */,
+			);
+			path = ClickerGameStoreWydraTests;
+			sourceTree = "<group>";
+		};
+		182CF38B2ACC57550067A05B /* ClickerGameStoreWydraUITests */ = {
+			isa = PBXGroup;
+			children = (
+				182CF38C2ACC57550067A05B /* ClickerGameStoreWydraUITests.swift */,
+				182CF38E2ACC57550067A05B /* ClickerGameStoreWydraUITestsLaunchTests.swift */,
+			);
+			path = ClickerGameStoreWydraUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		182CF3642ACC57530067A05B /* ClickerGameStoreWydra */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 182CF3922ACC57550067A05B /* Build configuration list for PBXNativeTarget "ClickerGameStoreWydra" */;
+			buildPhases = (
+				182CF3612ACC57530067A05B /* Sources */,
+				182CF3622ACC57530067A05B /* Frameworks */,
+				182CF3632ACC57530067A05B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ClickerGameStoreWydra;
+			productName = ClickerGameStoreWydra;
+			productReference = 182CF3652ACC57530067A05B /* ClickerGameStoreWydra.app */;
+			productType = "com.apple.product-type.application";
+		};
+		182CF37D2ACC57540067A05B /* ClickerGameStoreWydraTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 182CF3952ACC57550067A05B /* Build configuration list for PBXNativeTarget "ClickerGameStoreWydraTests" */;
+			buildPhases = (
+				182CF37A2ACC57540067A05B /* Sources */,
+				182CF37B2ACC57540067A05B /* Frameworks */,
+				182CF37C2ACC57540067A05B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				182CF3802ACC57540067A05B /* PBXTargetDependency */,
+			);
+			name = ClickerGameStoreWydraTests;
+			productName = ClickerGameStoreWydraTests;
+			productReference = 182CF37E2ACC57540067A05B /* ClickerGameStoreWydraTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		182CF3872ACC57550067A05B /* ClickerGameStoreWydraUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 182CF3982ACC57550067A05B /* Build configuration list for PBXNativeTarget "ClickerGameStoreWydraUITests" */;
+			buildPhases = (
+				182CF3842ACC57550067A05B /* Sources */,
+				182CF3852ACC57550067A05B /* Frameworks */,
+				182CF3862ACC57550067A05B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				182CF38A2ACC57550067A05B /* PBXTargetDependency */,
+			);
+			name = ClickerGameStoreWydraUITests;
+			productName = ClickerGameStoreWydraUITests;
+			productReference = 182CF3882ACC57550067A05B /* ClickerGameStoreWydraUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		182CF35D2ACC57530067A05B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					182CF3642ACC57530067A05B = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+					182CF37D2ACC57540067A05B = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = 182CF3642ACC57530067A05B;
+					};
+					182CF3872ACC57550067A05B = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = 182CF3642ACC57530067A05B;
+					};
+				};
+			};
+			buildConfigurationList = 182CF3602ACC57530067A05B /* Build configuration list for PBXProject "ClickerGameStoreWydra" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 182CF35C2ACC57530067A05B;
+			productRefGroup = 182CF3662ACC57530067A05B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				182CF3642ACC57530067A05B /* ClickerGameStoreWydra */,
+				182CF37D2ACC57540067A05B /* ClickerGameStoreWydraTests */,
+				182CF3872ACC57550067A05B /* ClickerGameStoreWydraUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		182CF3632ACC57530067A05B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				182CF3782ACC57540067A05B /* LaunchScreen.storyboard in Resources */,
+				182CF3752ACC57540067A05B /* Assets.xcassets in Resources */,
+				182CF3702ACC57530067A05B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		182CF37C2ACC57540067A05B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		182CF3862ACC57550067A05B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		182CF3612ACC57530067A05B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				182CF36D2ACC57530067A05B /* ViewController.swift in Sources */,
+				182CF3732ACC57530067A05B /* ClickerGameStoreWydra.xcdatamodeld in Sources */,
+				182CF3692ACC57530067A05B /* AppDelegate.swift in Sources */,
+				182CF36B2ACC57530067A05B /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		182CF37A2ACC57540067A05B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				182CF3832ACC57540067A05B /* ClickerGameStoreWydraTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		182CF3842ACC57550067A05B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				182CF38F2ACC57550067A05B /* ClickerGameStoreWydraUITestsLaunchTests.swift in Sources */,
+				182CF38D2ACC57550067A05B /* ClickerGameStoreWydraUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		182CF3802ACC57540067A05B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 182CF3642ACC57530067A05B /* ClickerGameStoreWydra */;
+			targetProxy = 182CF37F2ACC57540067A05B /* PBXContainerItemProxy */;
+		};
+		182CF38A2ACC57550067A05B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 182CF3642ACC57530067A05B /* ClickerGameStoreWydra */;
+			targetProxy = 182CF3892ACC57550067A05B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		182CF36E2ACC57530067A05B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				182CF36F2ACC57530067A05B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		182CF3762ACC57540067A05B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				182CF3772ACC57540067A05B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		182CF3902ACC57550067A05B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		182CF3912ACC57550067A05B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		182CF3932ACC57550067A05B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8MKZAWVUCJ;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ClickerGameStoreWydra/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = clc.ClickerGameStoreWydra;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		182CF3942ACC57550067A05B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8MKZAWVUCJ;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ClickerGameStoreWydra/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = clc.ClickerGameStoreWydra;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		182CF3962ACC57550067A05B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8MKZAWVUCJ;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = clc.ClickerGameStoreWydraTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ClickerGameStoreWydra.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ClickerGameStoreWydra";
+			};
+			name = Debug;
+		};
+		182CF3972ACC57550067A05B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8MKZAWVUCJ;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = clc.ClickerGameStoreWydraTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ClickerGameStoreWydra.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ClickerGameStoreWydra";
+			};
+			name = Release;
+		};
+		182CF3992ACC57550067A05B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8MKZAWVUCJ;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = clc.ClickerGameStoreWydraUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ClickerGameStoreWydra;
+			};
+			name = Debug;
+		};
+		182CF39A2ACC57550067A05B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8MKZAWVUCJ;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = clc.ClickerGameStoreWydraUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ClickerGameStoreWydra;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		182CF3602ACC57530067A05B /* Build configuration list for PBXProject "ClickerGameStoreWydra" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				182CF3902ACC57550067A05B /* Debug */,
+				182CF3912ACC57550067A05B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		182CF3922ACC57550067A05B /* Build configuration list for PBXNativeTarget "ClickerGameStoreWydra" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				182CF3932ACC57550067A05B /* Debug */,
+				182CF3942ACC57550067A05B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		182CF3952ACC57550067A05B /* Build configuration list for PBXNativeTarget "ClickerGameStoreWydraTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				182CF3962ACC57550067A05B /* Debug */,
+				182CF3972ACC57550067A05B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		182CF3982ACC57550067A05B /* Build configuration list for PBXNativeTarget "ClickerGameStoreWydraUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				182CF3992ACC57550067A05B /* Debug */,
+				182CF39A2ACC57550067A05B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		182CF3712ACC57530067A05B /* ClickerGameStoreWydra.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				182CF3722ACC57530067A05B /* ClickerGameStoreWydra.xcdatamodel */,
+			);
+			currentVersion = 182CF3722ACC57530067A05B /* ClickerGameStoreWydra.xcdatamodel */;
+			path = ClickerGameStoreWydra.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 182CF35D2ACC57530067A05B /* Project object */;
+}
