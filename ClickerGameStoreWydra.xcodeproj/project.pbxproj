@@ -17,6 +17,7 @@
 		182CF3832ACC57540067A05B /* ClickerGameStoreWydraTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 182CF3822ACC57540067A05B /* ClickerGameStoreWydraTests.swift */; };
 		182CF38D2ACC57550067A05B /* ClickerGameStoreWydraUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 182CF38C2ACC57550067A05B /* ClickerGameStoreWydraUITests.swift */; };
 		182CF38F2ACC57550067A05B /* ClickerGameStoreWydraUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 182CF38E2ACC57550067A05B /* ClickerGameStoreWydraUITestsLaunchTests.swift */; };
+		182CF39C2ACC5C630067A05B /* ViewControllerStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 182CF39B2ACC5C630067A05B /* ViewControllerStore.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		182CF3882ACC57550067A05B /* ClickerGameStoreWydraUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ClickerGameStoreWydraUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		182CF38C2ACC57550067A05B /* ClickerGameStoreWydraUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClickerGameStoreWydraUITests.swift; sourceTree = "<group>"; };
 		182CF38E2ACC57550067A05B /* ClickerGameStoreWydraUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClickerGameStoreWydraUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		182CF39B2ACC5C630067A05B /* ViewControllerStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerStore.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +106,7 @@
 				182CF3682ACC57530067A05B /* AppDelegate.swift */,
 				182CF36A2ACC57530067A05B /* SceneDelegate.swift */,
 				182CF36C2ACC57530067A05B /* ViewController.swift */,
+				182CF39B2ACC5C630067A05B /* ViewControllerStore.swift */,
 				182CF36E2ACC57530067A05B /* Main.storyboard */,
 				182CF3742ACC57540067A05B /* Assets.xcassets */,
 				182CF3762ACC57540067A05B /* LaunchScreen.storyboard */,
@@ -263,6 +266,7 @@
 			files = (
 				182CF36D2ACC57530067A05B /* ViewController.swift in Sources */,
 				182CF3732ACC57530067A05B /* ClickerGameStoreWydra.xcdatamodeld in Sources */,
+				182CF39C2ACC5C630067A05B /* ViewControllerStore.swift in Sources */,
 				182CF3692ACC57530067A05B /* AppDelegate.swift in Sources */,
 				182CF36B2ACC57530067A05B /* SceneDelegate.swift in Sources */,
 			);
