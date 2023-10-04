@@ -22,7 +22,7 @@
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled" title="Store"/>
                                 <connections>
-                                    <segue destination="8sC-dB-Zuj" kind="show" identifier="toStore" id="Vdb-OA-qSs"/>
+                                    <action selector="storeButtonPress:" destination="BYZ-38-t0r" eventType="touchUpInside" id="njc-33-n5T"/>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Ponies: 0" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tAB-q5-Ufm">
@@ -48,6 +48,7 @@
                     <navigationItem key="navigationItem" title="Main Screen" id="FeU-J1-mUQ"/>
                     <connections>
                         <outlet property="ponyCount" destination="tAB-q5-Ufm" id="YTL-N6-Pqh"/>
+                        <segue destination="8sC-dB-Zuj" kind="show" identifier="toStore" id="A2n-63-lqe"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
@@ -83,6 +84,9 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled" title="Hay Bale"/>
+                                <connections>
+                                    <action selector="hayPress:" destination="8sC-dB-Zuj" eventType="touchUpInside" id="bN6-Rd-GXI"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Bales Owned: 0" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pvU-MM-TfM">
                                 <rect key="frame" x="136" y="286" width="120" height="21"/>
@@ -117,6 +121,9 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled" title="Apples"/>
+                                <connections>
+                                    <action selector="applePress:" destination="8sC-dB-Zuj" eventType="touchUpInside" id="fSx-bu-aZX"/>
+                                </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jkS-oO-aJb">
                                 <rect key="frame" x="175" y="416" width="0.0" height="0.0"/>
@@ -137,6 +144,11 @@
                         <color key="backgroundColor" systemColor="systemBrownColor"/>
                     </view>
                     <navigationItem key="navigationItem" title="Store" id="WRc-WG-TeS"/>
+                    <connections>
+                        <outlet property="appleText" destination="zUw-NG-k7c" id="24r-rC-eWh"/>
+                        <outlet property="hayText" destination="pvU-MM-TfM" id="BLD-To-E2o"/>
+                        <outlet property="poniesText" destination="i3C-l9-MMG" id="vTn-06-4C3"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="oVJ-pp-OLw" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>

@@ -19,6 +19,10 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
     
+    override func viewWillAppear(_ animated: Bool) {
+        updatePonies()
+    }
+    
     func updatePonies(){
         ponyCount.text = "Ponies: \(ponies)"
     }
@@ -29,8 +33,15 @@ class ViewController: UIViewController {
         updatePonies()
     }
     
-    performSegue(withIdentifier identifier: String, sender: Any?) {
-        <#code#>
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        let nvc = segue.destination as! ViewControllerStore
+        nvc.ponies = ponies
+        nvc.delegate = self
     }
+    
+    @IBAction func storeButtonPress(_ sender: UIButton) {
+        performSegue(withIdentifier: "toStore", sender: self)
+    }
+    
 }
 
